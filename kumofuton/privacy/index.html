@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kumofuton</title>
+<link rel="stylesheet" href="/kumofuton/assets/style.css">
+<script>
+(function () {
+  var langs = navigator.languages || [navigator.language || "en"];
+  var pick = "en";
+  for (var i = 0; i < langs.length; i++) {
+    var l = langs[i].toLowerCase();
+    if (l.indexOf("zh") === 0) {
+      pick = /hant|tw|hk|mo/.test(l) ? "zh-hant" : "zh-hans"; break;
+    }
+    var base = l.split("-")[0];
+    if (["en", "ja", "ko", "fr", "de", "ar"].indexOf(base) !== -1) { pick = base; break; }
+  }
+  location.replace("/kumofuton/" + pick + "/privacy/");
+})();
+</script>
+</head>
+<body><main><h1>Kumofuton</h1><ul class="language-list"><li><a href="/kumofuton/en/privacy/" lang="en">English</a></li><li><a href="/kumofuton/ja/privacy/" lang="ja">日本語</a></li><li><a href="/kumofuton/ko/privacy/" lang="ko">한국어</a></li><li><a href="/kumofuton/zh-hans/privacy/" lang="zh-Hans">简体中文</a></li><li><a href="/kumofuton/zh-hant/privacy/" lang="zh-Hant">繁體中文</a></li><li><a href="/kumofuton/fr/privacy/" lang="fr">Français</a></li><li><a href="/kumofuton/de/privacy/" lang="de">Deutsch</a></li><li><a href="/kumofuton/ar/privacy/" lang="ar">العربية</a></li></ul></main></body>
+</html>
