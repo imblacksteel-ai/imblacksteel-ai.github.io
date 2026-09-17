@@ -20,14 +20,14 @@ SITE = "https://imblacksteel-ai.github.io"
 # Contact forms, one Google Form per language, created by
 # kumofuton/tools/google_forms/create_forms.gs in the app repository.
 CONTACT_FORM_URLS = {
-    "en": "https://docs.google.com/forms/d/e/1FAIpQLSf9jJMpZbI1oEfFb9UMc_7qvD7_MdS1RcZhGjVnbNcBV5UOqQ/viewform",
-    "ja": "https://docs.google.com/forms/d/e/1FAIpQLSdm7jJsmeIFo4DUIb2kGfqSsR592Pr0oKRM7F7bopLs-wCbOQ/viewform",
-    "ko": "https://docs.google.com/forms/d/e/1FAIpQLSerNjHUrUFcKzecekg7_WHg1SPqWvqdH0h9XsToFQx-Oushdg/viewform",
-    "zh-hans": "https://docs.google.com/forms/d/e/1FAIpQLSfP9BkZrxL1VKyK8iE8xclaCoxankPUd9hRONSYjpGR6ec0Kw/viewform",
-    "zh-hant": "https://docs.google.com/forms/d/e/1FAIpQLSemcI838S8zMIPUEIM7X8Wroj7oeMnkbRWIdvRhQP1uwNzHlA/viewform",
-    "fr": "https://docs.google.com/forms/d/e/1FAIpQLSf_z0vMkI5Ev4PtzUp-p_7nG6-1ifIgNTiIC-o7Jx0iF2s5kg/viewform",
-    "de": "https://docs.google.com/forms/d/e/1FAIpQLSe5RHy3rk27GrdMORxgkIEj5rC7_h9w_tV82x4YViKwZr-8UA/viewform",
-    "ar": "https://docs.google.com/forms/d/e/1FAIpQLScfCpE2F7dPcQFZF-fpDVWf1UEUlQY9Nnnx_NoMIhw2TpyRIA/viewform",
+    "en": "https://docs.google.com/forms/d/e/1FAIpQLSdsrkY2CeW5Bv2P4HRuZuSrYZxJWRHP4GDLLaIsxBR_G7PaYQ/viewform",
+    "ja": "https://docs.google.com/forms/d/e/1FAIpQLSeK9_rQKcGneyN-BM8wfxfDBXRu0ljbQd8JNKxBCGs8ZLG0RA/viewform",
+    "ko": "https://docs.google.com/forms/d/e/1FAIpQLSffqlYhUKi9YRydSn_5tEdPLEe7CD6eXdyg5EcQmXHSJkj_6w/viewform",
+    "zh-hans": "https://docs.google.com/forms/d/e/1FAIpQLScMot8P2BOn_gUoz5RHm_w8hEQszbbSW4TZiYUsPvG4bZf1Bg/viewform",
+    "zh-hant": "https://docs.google.com/forms/d/e/1FAIpQLScUVmUawZOfdISpvbQNMZKKeaQg4AorkAv4mhvDh_ZD7AVCBg/viewform",
+    "fr": "https://docs.google.com/forms/d/e/1FAIpQLSeauyWJ9TuyR4377sT79pz_B28YrxT4PqFB9VkT4ZHxieuOmA/viewform",
+    "de": "https://docs.google.com/forms/d/e/1FAIpQLScNID_-EGahl5wkVoIH2yOL-5x4nBGhoDXXjurob3e9AO8pUA/viewform",
+    "ar": "https://docs.google.com/forms/d/e/1FAIpQLSegXDQ2Oxrw9OY_zKdb31dud7-4m2uqzdUsSJ2KMfNYj83yqg/viewform",
 }
 
 PAGES = ("home", "support", "privacy", "disclaimer")
