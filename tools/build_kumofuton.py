@@ -1,4 +1,4 @@
-"""Build the static Kumofuton pages (home, support, privacy) in every language.
+"""Build the static Kumofuton pages (home, support, privacy, disclaimer) in every language.
 
     python3 tools/build_kumofuton.py
 
@@ -10,7 +10,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from kumofuton_content import EFFECTIVE_DATE, LANGUAGES, T  # noqa: E402
+from kumofuton_content import DISCLAIMER, EFFECTIVE_DATE, LANGUAGES, T  # noqa: E402
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OUT = os.path.join(ROOT, "kumofuton")
@@ -30,7 +30,7 @@ CONTACT_FORM_URLS = {
     "ar": "https://docs.google.com/forms/d/e/1FAIpQLScfCpE2F7dPcQFZF-fpDVWf1UEUlQY9Nnnx_NoMIhw2TpyRIA/viewform",
 }
 
-PAGES = ("home", "support", "privacy")
+PAGES = ("home", "support", "privacy", "disclaimer")
 
 
 def esc(text):
@@ -69,6 +69,7 @@ def layout(lang, page, title, body):
         f'<a href="{page_path(lang, "home")}">{esc(app_name)}</a>'
         f'<a href="{page_path(lang, "support")}">{esc(t["support"])}</a>'
         f'<a href="{page_path(lang, "privacy")}">{esc(t["privacy"])}</a>'
+        f'<a href="{page_path(lang, "disclaimer")}">{esc(DISCLAIMER[lang][0])}</a>'
         f"</nav>"
     )
     return f"""<!doctype html>
@@ -145,6 +146,20 @@ def privacy(lang):
     return layout(lang, "privacy", f"{t['privacy']} – {app_name}", body)
 
 
+def disclaimer(lang):
+    title, sections = DISCLAIMER[lang]
+    app_name = LANGUAGES[lang][3]
+    content = "".join(
+        f"<h2>{esc(heading)}</h2>" + "".join(f"<p>{esc(p)}</p>" for p in paragraphs)
+        for heading, paragraphs in sections
+    )
+    body = f"""<h1>{esc(app_name)} {esc(title)}</h1>
+<p class="meta">{esc(T[lang]["effective"])}: {esc(EFFECTIVE_DATE[lang])}</p>
+<section class="card prose">{content}</section>
+{contact_block(lang)}"""
+    return layout(lang, "disclaimer", f"{title} – {app_name}", body)
+
+
 def redirect(page):
     """Language-neutral URL for store listings; sends visitors to their language."""
     links = "".join(
@@ -191,9 +206,11 @@ if __name__ == "__main__":
         write(lang, home(lang))
         write(f"{lang}/support", support(lang))
         write(f"{lang}/privacy", privacy(lang))
+        write(f"{lang}/disclaimer", disclaimer(lang))
     write("", redirect("home"))
     write("support", redirect("support"))
     write("privacy", redirect("privacy"))
+    write("disclaimer", redirect("disclaimer"))
     missing = [lang for lang in LANGUAGES if not CONTACT_FORM_URLS.get(lang)]
     if missing:
         sys.exit(f"Missing contact form URL for: {', '.join(missing)}")
