@@ -12,7 +12,7 @@ The language-neutral URLs above send visitors to their browser language;
 each language also has its own URL, such as `/kumofuton/ja/privacy/`.
 
 Pages are generated. Edit `tools/kumofuton_content.py` (text, 8 languages)
-or `tools/build_kumofuton.py` (layout, contact form URL), then run:
+or `tools/build_kumofuton.py` (layout, contact form URLs per language), then run:
 
 ```sh
 python3 tools/build_kumofuton.py

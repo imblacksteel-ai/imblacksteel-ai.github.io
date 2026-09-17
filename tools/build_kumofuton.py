@@ -17,8 +17,18 @@ OUT = os.path.join(ROOT, "kumofuton")
 BASE = "/kumofuton"
 SITE = "https://imblacksteel-ai.github.io"
 
-# Google Form for questions and bug reports. Must be set before publishing.
-CONTACT_FORM_URL = ""
+# Contact forms, one Google Form per language, created by
+# kumofuton/tools/google_forms/create_forms.gs in the app repository.
+CONTACT_FORM_URLS = {
+    "en": "https://docs.google.com/forms/d/e/1FAIpQLSf9jJMpZbI1oEfFb9UMc_7qvD7_MdS1RcZhGjVnbNcBV5UOqQ/viewform",
+    "ja": "https://docs.google.com/forms/d/e/1FAIpQLSdm7jJsmeIFo4DUIb2kGfqSsR592Pr0oKRM7F7bopLs-wCbOQ/viewform",
+    "ko": "https://docs.google.com/forms/d/e/1FAIpQLSerNjHUrUFcKzecekg7_WHg1SPqWvqdH0h9XsToFQx-Oushdg/viewform",
+    "zh-hans": "https://docs.google.com/forms/d/e/1FAIpQLSfP9BkZrxL1VKyK8iE8xclaCoxankPUd9hRONSYjpGR6ec0Kw/viewform",
+    "zh-hant": "https://docs.google.com/forms/d/e/1FAIpQLSemcI838S8zMIPUEIM7X8Wroj7oeMnkbRWIdvRhQP1uwNzHlA/viewform",
+    "fr": "https://docs.google.com/forms/d/e/1FAIpQLSf_z0vMkI5Ev4PtzUp-p_7nG6-1ifIgNTiIC-o7Jx0iF2s5kg/viewform",
+    "de": "https://docs.google.com/forms/d/e/1FAIpQLSe5RHy3rk27GrdMORxgkIEj5rC7_h9w_tV82x4YViKwZr-8UA/viewform",
+    "ar": "https://docs.google.com/forms/d/e/1FAIpQLScfCpE2F7dPcQFZF-fpDVWf1UEUlQY9Nnnx_NoMIhw2TpyRIA/viewform",
+}
 
 PAGES = ("home", "support", "privacy")
 
@@ -41,11 +51,9 @@ def language_menu(current, page):
     return f'<nav class="languages" aria-label="{esc(T[current]["language"])}">{items}</nav>'
 
 
-def contact_block(t):
-    if CONTACT_FORM_URL:
-        button = f'<a class="button" href="{esc(CONTACT_FORM_URL)}" rel="noopener">{esc(t["contact"])}</a>'
-    else:
-        button = '<p class="todo">CONTACT_FORM_URL is not set.</p>'
+def contact_block(lang):
+    t = T[lang]
+    button = f'<a class="button" href="{esc(CONTACT_FORM_URLS[lang])}" rel="noopener">{esc(t["contact"])}</a>'
     return f'<section class="card"><h2>{esc(t["contact"])}</h2><p>{esc(t["contact_note"])}</p>{button}</section>'
 
 
@@ -119,7 +127,7 @@ def support(lang):
     )
     body = f"""<h1>{esc(app_name)} {esc(t["support"])}</h1>
 <section class="card"><h2>{esc(t["faq_title"])}</h2>{faq}</section>
-{contact_block(t)}"""
+{contact_block(lang)}"""
     return layout(lang, "support", f"{t['support']} – {app_name}", body)
 
 
@@ -133,7 +141,7 @@ def privacy(lang):
     body = f"""<h1>{esc(app_name)} {esc(t["privacy"])}</h1>
 <p class="meta">{esc(t["effective"])}: {esc(EFFECTIVE_DATE[lang])}</p>
 <section class="card prose">{sections}</section>
-{contact_block(t)}"""
+{contact_block(lang)}"""
     return layout(lang, "privacy", f"{t['privacy']} – {app_name}", body)
 
 
@@ -186,6 +194,7 @@ if __name__ == "__main__":
     write("", redirect("home"))
     write("support", redirect("support"))
     write("privacy", redirect("privacy"))
-    if not CONTACT_FORM_URL:
-        print("WARNING: CONTACT_FORM_URL is empty; set it before publishing.")
+    missing = [lang for lang in LANGUAGES if not CONTACT_FORM_URLS.get(lang)]
+    if missing:
+        sys.exit(f"Missing contact form URL for: {', '.join(missing)}")
     print(f"Built {len(LANGUAGES) * len(PAGES) + 3} pages.")
