@@ -20,3 +20,12 @@ python3 tools/build_kumofuton.py
 
 Keep the privacy policy in step with the app, and update the effective date
 when it changes.
+
+## Yesternews
+
+- Privacy policy: https://imblacksteel-ai.github.io/yesternews/privacy/
+- Terms of use: https://imblacksteel-ai.github.io/yesternews/terms/
+
+Japanese only for now. The source of these pages lives in the Yesternews
+repository (`docs/site/yesternews/`); copy it here after editing, and update
+the effective date when the content changes.
