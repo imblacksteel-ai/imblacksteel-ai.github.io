@@ -30,6 +30,10 @@ CONTACT_FORM_URLS = {
     "ar": "https://docs.google.com/forms/d/e/1FAIpQLSegXDQ2Oxrw9OY_zKdb31dud7-4m2uqzdUsSJ2KMfNYj83yqg/viewform",
 }
 
+# Bump when the icons change: browsers keep favicons long after the file
+# itself is replaced, and a new query makes them fetch it again.
+ICON_VERSION = 2
+
 PAGES = ("home", "support", "privacy", "disclaimer")
 
 
@@ -79,15 +83,15 @@ def layout(lang, page, title, body):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(t["tagline"])}">
-<link rel="icon" type="image/png" href="{BASE}/assets/favicon.png">
-<link rel="apple-touch-icon" href="{BASE}/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="{BASE}/assets/favicon.png?v={ICON_VERSION}">
+<link rel="apple-touch-icon" href="{BASE}/assets/apple-touch-icon.png?v={ICON_VERSION}">
 <link rel="stylesheet" href="{BASE}/assets/style.css">
 <link rel="canonical" href="{SITE}{page_path(lang, page)}">
 {alternates}
 </head>
 <body>
 <header class="top">
-<a class="brand" href="{page_path(lang, "home")}"><img src="{BASE}/assets/icon-256.png" alt="" width="40" height="40"><span>{esc(app_name)}</span></a>
+<a class="brand" href="{page_path(lang, "home")}"><img src="{BASE}/assets/icon-256.png?v={ICON_VERSION}" alt="" width="40" height="40"><span>{esc(app_name)}</span></a>
 {nav}
 </header>
 <main>
@@ -108,7 +112,7 @@ def home(lang):
     intro = "".join(f"<p>{esc(p)}</p>" for p in t["intro"])
     features = "".join(f"<li>{esc(f)}</li>" for f in t["features"])
     body = f"""<section class="hero">
-<img src="{BASE}/assets/icon-256.png" alt="{esc(app_name)}" width="128" height="128">
+<img src="{BASE}/assets/icon-256.png?v={ICON_VERSION}" alt="{esc(app_name)}" width="128" height="128">
 <h1>{esc(app_name)}</h1>
 <p class="tagline">{esc(t["tagline"])}</p>
 </section>
