@@ -23,9 +23,13 @@ when it changes.
 
 ## Yesternews
 
+- Home: https://imblacksteel-ai.github.io/yesternews/
 - Privacy policy: https://imblacksteel-ai.github.io/yesternews/privacy/
 - Terms of use: https://imblacksteel-ai.github.io/yesternews/terms/
 
-Japanese only for now. The source of these pages lives in the Yesternews
-repository (`docs/site/yesternews/`); copy it here after editing, and update
-the effective date when the content changes.
+Japanese only for now, styled like the app (a 1998 PC window with the
+DotGothic16 font). Pages are generated in the Yesternews repository: edit
+`docs/site/src/*.html` (text) or `docs/site/yesternews/assets/style.css`
+(look), then run `docs/site/build.py` there. It writes the pages, a font cut
+down to the characters in use, and copies everything here. Update the
+effective date when the policy or terms change.
