@@ -1,0 +1,21 @@
+{
+  "ads": [
+    {
+      "id": "kumofuton",
+      "title": "くもふとん",
+      "body": "眠りを邪魔しない、睡眠音アプリ",
+      "action": "くわしく見る",
+      "action_ios": "App Storeで見る",
+      "url": "https://imblacksteel-ai.github.io/kumofuton/",
+      "url_ios": "https://apps.apple.com/jp/app/id6812955445",
+      "image": "images/ads/kumofuton.png",
+      "after": 3
+    }
+  ],
+  "recruit": {
+    "title": "広告募集中",
+    "body": "このスペースに広告を出しませんか",
+    "action": "お問い合わせ",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfABr9HmkMJVu7op4ba4lwMDaSjxa8Ga5Vs3-keL45XpWA2Vg/viewform"
+  }
+}

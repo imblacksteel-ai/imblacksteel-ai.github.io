@@ -33,3 +33,7 @@ DotGothic16 font). Pages are generated in the Yesternews repository: edit
 (look), then run `docs/site/build.py` there. It writes the pages, a font cut
 down to the characters in use, and copies everything here. Update the
 effective date when the policy or terms change.
+
+`yesternews/ads.json` is the ad list the app downloads (free users only).
+Its source is `assets/data/ads.json` in the Yesternews repository; see
+`docs/ads.md` there. Changing it here changes the ads without an app update.
