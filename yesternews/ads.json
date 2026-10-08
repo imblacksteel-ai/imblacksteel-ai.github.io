@@ -10,15 +10,6 @@
       "url_ios": "https://apps.apple.com/jp/app/id6812955445",
       "image": "images/ads/kumofuton.png",
       "after": 3
-    },
-    {
-      "id": "kouryakulab",
-      "title": "攻略ラボ",
-      "body": "データで読み解くゲーム攻略と計算ツール",
-      "action": "サイトを見る",
-      "url": "https://kouryakulab.com/ja/",
-      "image": "https://imblacksteel-ai.github.io/yesternews/ads/kouryakulab.png",
-      "after": 6
     }
   ],
   "recruit": {
