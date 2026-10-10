@@ -21,6 +21,25 @@ python3 tools/build_kumofuton.py
 Keep the privacy policy in step with the app, and update the effective date
 when it changes.
 
+## SD Importer
+
+- Home: https://imblacksteel-ai.github.io/sd-importer/
+- Support: https://imblacksteel-ai.github.io/sd-importer/support/
+- Privacy policy: https://imblacksteel-ai.github.io/sd-importer/privacy/
+
+English, Japanese, Korean, and Chinese (Simplified and Traditional). The language-neutral
+URLs send visitors to their browser language, as with Kumofuton.
+
+Pages are generated. Edit `tools/sdimporter_content.py` (text) or `tools/build_sdimporter.py`
+(layout; set `APP_STORE_URL` once the app is live), then run:
+
+```sh
+python3 tools/build_sdimporter.py
+```
+
+The app's source is https://github.com/imblacksteel-ai/photo-manager. Keep the privacy policy
+in step with the app, and update the effective date when it changes.
+
 ## Yesternews
 
 - Home: https://imblacksteel-ai.github.io/yesternews/

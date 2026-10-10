@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SD Importer</title>
+<link rel="stylesheet" href="/sd-importer/assets/style.css">
+<script>
+(function () {
+  var langs = navigator.languages || [navigator.language || "en"];
+  var pick = "en";
+  for (var i = 0; i < langs.length; i++) {
+    var l = langs[i].toLowerCase();
+    if (l.indexOf("zh") === 0) {
+      pick = /hant|tw|hk|mo/.test(l) ? "zh-hant" : "zh-hans"; break;
+    }
+    var base = l.split("-")[0];
+    if (["en", "ja", "ko"].indexOf(base) !== -1) { pick = base; break; }
+  }
+  location.replace("/sd-importer/" + pick + "/");
+})();
+</script>
+</head>
+<body><main><h1>SD Importer</h1><ul class="language-list"><li><a href="/sd-importer/en/" lang="en">English</a></li><li><a href="/sd-importer/ja/" lang="ja">日本語</a></li><li><a href="/sd-importer/ko/" lang="ko">한국어</a></li><li><a href="/sd-importer/zh-hans/" lang="zh-Hans">简体中文</a></li><li><a href="/sd-importer/zh-hant/" lang="zh-Hant">繁體中文</a></li></ul></main></body>
+</html>
