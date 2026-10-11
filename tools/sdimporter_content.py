@@ -88,7 +88,7 @@ T = {
             ]),
             ("Tips (in-app purchases)", [
                 "Tips in the Mac App Store version are processed by Apple. The developer does not receive your payment information. "
-                "The GitHub version links to GitHub Sponsors, which is covered by GitHub’s privacy policy.",
+                "The GitHub version has no tips.",
             ]),
             ("Children", [
                 "The app does not collect information from anyone, including children.",
@@ -164,7 +164,7 @@ T = {
             ]),
             ("チップ（アプリ内課金）", [
                 "Mac App Store 版のチップの支払いは Apple が処理します。開発者が支払い情報を受け取ることはありません。"
-                "GitHub 版のリンク先の GitHub Sponsors には、GitHub のプライバシーポリシーが適用されます。",
+                "GitHub 版にはチップの機能はありません。",
             ]),
             ("お子さまについて", [
                 "このアプリは、お子さまを含め、どなたの情報も収集しません。",
@@ -235,7 +235,7 @@ T = {
             ("알림", ["완료 알림은 사용자의 Mac에만 표시됩니다."]),
             ("팁(앱 내 구입)", [
                 "Mac App Store 버전의 팁 결제는 Apple이 처리합니다. 개발자는 결제 정보를 받지 않습니다. "
-                "GitHub 버전에서 연결되는 GitHub Sponsors에는 GitHub의 개인정보 처리방침이 적용됩니다.",
+                "GitHub 버전에는 팁 기능이 없습니다.",
             ]),
             ("아동", ["이 앱은 아동을 포함한 누구의 정보도 수집하지 않습니다."]),
             ("방침 변경", ["내용이 변경되면 이 페이지와 시행일을 업데이트하여 알려 드립니다."]),
@@ -292,7 +292,7 @@ T = {
             ]),
             ("通知", ["完成通知只显示在您的 Mac 上。"]),
             ("小费（App 内购买）", [
-                "Mac App Store 版本的小费付款由 Apple 处理，开发者不会收到您的付款信息。GitHub 版本链接的 GitHub Sponsors 适用 GitHub 的隐私政策。",
+                "Mac App Store 版本的小费付款由 Apple 处理，开发者不会收到您的付款信息。GitHub 版本没有小费功能。",
             ]),
             ("儿童", ["本应用不收集任何人的信息，包括儿童。"]),
             ("政策变更", ["如有变更，将更新本页面及生效日期。"]),
@@ -349,7 +349,7 @@ T = {
             ]),
             ("通知", ["完成通知只顯示在您的 Mac 上。"]),
             ("小費（App 內購買）", [
-                "Mac App Store 版本的小費付款由 Apple 處理，開發者不會收到您的付款資訊。GitHub 版本連結的 GitHub Sponsors 適用 GitHub 的隱私權政策。",
+                "Mac App Store 版本的小費付款由 Apple 處理，開發者不會收到您的付款資訊。GitHub 版本沒有小費功能。",
             ]),
             ("兒童", ["本 App 不收集任何人的資料，包括兒童。"]),
             ("政策變更", ["如有變更，將更新本頁面及生效日期。"]),
