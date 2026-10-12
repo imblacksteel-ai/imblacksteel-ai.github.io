@@ -3,7 +3,7 @@
     python3 tools/build_sdimporter.py
 
 Writes sd-importer/**/index.html. Edit tools/sdimporter_content.py for text.
-The app's source is https://github.com/imblacksteel-ai/photo-manager.
+The app's source is https://github.com/imblacksteel-ai/cullcopy.
 """
 import html
 import os
@@ -16,7 +16,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OUT = os.path.join(ROOT, "sd-importer")
 BASE = "/sd-importer"
 SITE = "https://imblacksteel-ai.github.io"
-REPO = "https://github.com/imblacksteel-ai/photo-manager"
+REPO = "https://github.com/imblacksteel-ai/cullcopy"
 ISSUES_URL = f"{REPO}/issues"
 RELEASES_URL = f"{REPO}/releases/latest"
 # Set this once the app is live on the Mac App Store; until then the button is hidden.

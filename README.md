@@ -37,7 +37,7 @@ Pages are generated. Edit `tools/sdimporter_content.py` (text) or `tools/build_s
 python3 tools/build_sdimporter.py
 ```
 
-The app's source is https://github.com/imblacksteel-ai/photo-manager. Keep the privacy policy
+The app's source is https://github.com/imblacksteel-ai/cullcopy. Keep the privacy policy
 in step with the app, and update the effective date when it changes.
 
 ## Yesternews
