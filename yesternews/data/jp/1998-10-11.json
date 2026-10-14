@@ -1,0 +1,44 @@
+[
+  {
+    "id": "jp-1998-10-11-301",
+    "region": "jp",
+    "time": "1998-10-11T00:00:00+09:00",
+    "time_known": false,
+    "category": "スポーツ",
+    "title": "出雲駅伝、駒沢大が2度目の優勝",
+    "body": "大学駅伝のシーズンの幕開けとなる出雲全日本大学選抜駅伝が10日、島根県出雲市で行われ、駒沢大学が2時間4分48秒で2度目の優勝を果たした。\n\n10回目の今年はスタート地点を出雲大社の正面鳥居前に移し、全長43.1キロのコースで21チームが争った。今年からはアメリカのアイビーリーグの選抜チームも招かれた。出雲駅伝は、11月の全日本大学駅伝、正月の箱根駅伝と並ぶ大学三大駅伝のひとつ。大学駅伝の季節は、これから本番を迎える。",
+    "pager": "イズモエキデン コマザワ",
+    "sources": [
+      {
+        "title": "ウィキペディア「出雲全日本大学選抜駅伝競走」",
+        "url": "https://ja.wikipedia.org/wiki/%E5%87%BA%E9%9B%B2%E5%85%A8%E6%97%A5%E6%9C%AC%E5%A4%A7%E5%AD%A6%E9%81%B8%E6%8A%9C%E9%A7%85%E4%BC%9D%E7%AB%B6%E8%B5%B0"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E5%87%BA%E9%9B%B2%E5%85%A8%E6%97%A5%E6%9C%AC%E5%A4%A7%E5%AD%A6%E9%81%B8%E6%8A%9C%E9%A7%85%E4%BC%9D%E7%AB%B6%E8%B5%B0",
+    "text_credit": "ウィキペディア「出雲全日本大学選抜駅伝競走」（CC BY-SA 4.0）を参考に、編集部が書き下ろし"
+  },
+  {
+    "id": "jp-1998-10-11-w01",
+    "region": "jp",
+    "time": "1998-10-11T18:00:00+09:00",
+    "time_known": true,
+    "category": "天気",
+    "title": "東京 きょうは快晴　気温22.7度まで",
+    "body": "きょうの東京都心は、昼間の天気が「快晴」だった。気温は午後2時に22.7度まで上がった。午後6時までで最も低かったのは、午前6時の18.0度。日照時間は10.4時間で、一日じゅう日差しに恵まれた。気持ちのいい青空が広がった。週末もこんな天気が続いてほしい。",
+    "pager": "トウキョウ カイセイ 23ド",
+    "sources": [
+      {
+        "title": "気象庁「過去の気象データ」（東京・1時間ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=10&day=11&view="
+      },
+      {
+        "title": "気象庁「過去の気象データ」（東京・日ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=44&block_no=47662&year=1998&month=10&day=&view="
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=10&day=11&view=",
+    "text_credit": "気象庁「過去の気象データ」の数値をもとに作成（政府標準利用規約）",
+    "note": "気温・雨・日照時間は、午後6時までの1時間ごとの観測値です。「昼の天気」は6時から18時までの天気概況です。",
+    "group": "weather"
+  }
+]

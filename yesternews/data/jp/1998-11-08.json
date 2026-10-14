@@ -1,0 +1,74 @@
+[
+  {
+    "id": "jp-1998-11-08-101",
+    "region": "jp",
+    "time": "1998-11-08T02:04:00+09:00",
+    "time_known": true,
+    "category": "科学",
+    "title": "向井千秋さんら、地球に帰還　ディスカバリーが着陸",
+    "body": "向井千秋さんらが乗り組んだスペースシャトル・ディスカバリーが、日本時間のきょう午前2時4分、フロリダ州のケネディ宇宙センターに着陸した。10月30日の打ち上げから、9日近くの飛行だった。\n\n向井さんにとっては2度目の宇宙飛行。宇宙では、無重力を生かしたさまざまな科学実験に取り組んだ。乗組員には、77歳で宇宙へ行き最年長の宇宙飛行士となった、アメリカのジョン・グレン上院議員も加わっていた。",
+    "pager": "ムカイサンラ キカン",
+    "sources": [
+      {
+        "title": "ウィキペディア「STS-95」",
+        "url": "https://ja.wikipedia.org/wiki/STS-95"
+      },
+      {
+        "title": "ウィキペディア「向井千秋」",
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%91%E4%BA%95%E5%8D%83%E7%A7%8B"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/STS-95",
+    "text_credit": "ウィキペディア「STS-95」・「向井千秋」（CC BY-SA 4.0）を参考に、編集部が書き下ろし",
+    "note": "着陸は世界標準時1998年11月7日17時4分（日本時間8日2時4分）です。",
+    "label": "速報",
+    "image": "images/jp/71b7de07abddbe59.jpg",
+    "image_caption": "着陸するディスカバリー（1998年11月7日撮影）",
+    "credit": "NASA / パブリックドメイン",
+    "image_page": "https://commons.wikimedia.org/wiki/File:STS-95_landing.jpg"
+  },
+  {
+    "id": "jp-1998-11-08-w01",
+    "region": "jp",
+    "time": "1998-11-08T18:00:00+09:00",
+    "time_known": true,
+    "category": "天気",
+    "title": "東京 きょうは快晴　気温19.7度まで",
+    "body": "きょうの東京都心は、昼間の天気が「快晴」だった。気温は午後3時に19.7度まで上がった。午後6時までで最も低かったのは、午前4時の10.9度。日照時間は9.0時間で、一日じゅう日差しに恵まれた。乾燥が続く。風邪の予防には、うがいと手洗いを。",
+    "pager": "トウキョウ カイセイ 20ド",
+    "sources": [
+      {
+        "title": "気象庁「過去の気象データ」（東京・1時間ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=8&view="
+      },
+      {
+        "title": "気象庁「過去の気象データ」（東京・日ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=&view="
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=8&view=",
+    "text_credit": "気象庁「過去の気象データ」の数値をもとに作成（政府標準利用規約）",
+    "note": "気温・雨・日照時間は、午後6時までの1時間ごとの観測値です。「昼の天気」は6時から18時までの天気概況です。",
+    "group": "weather"
+  },
+  {
+    "id": "jp-1998-11-08-q01",
+    "region": "jp",
+    "time": "1998-11-08T21:40:44+09:00",
+    "time_known": true,
+    "category": "地震",
+    "label": "速報",
+    "title": "東京湾で震度４の地震",
+    "body": "きょう午後9時40分ごろ、東京湾を震源とする地震があり、最大震度４の揺れを観測した。気象庁によると、震源の深さは約80キロ、地震の規模を示すマグニチュードは4.7と推定されている。揺れの強かった地域では、念のため身の回りに注意が必要だ。",
+    "pager": "ジシン シンド４ M4.7",
+    "sources": [
+      {
+        "title": "気象庁「震度データベース」",
+        "url": "https://www.data.jma.go.jp/eqdb/data/shindo/"
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/eqdb/data/shindo/",
+    "text_credit": "気象庁「震度データベース」の数値をもとに作成（政府標準利用規約）",
+    "note": "震源・規模などの数値は、現在の気象庁のデータです。"
+  }
+]

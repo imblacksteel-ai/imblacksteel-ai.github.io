@@ -1,0 +1,67 @@
+[
+  {
+    "id": "jp-1998-11-15-001",
+    "region": "jp",
+    "time": "1998-11-15T00:00:00+09:00",
+    "time_known": false,
+    "category": "テレビ",
+    "title": "今夜の『日曜洋画劇場』、淀川長治さんを追悼",
+    "body": "11日に死去した映画評論家の淀川長治さんをしのび、今夜のテレビ朝日系『日曜洋画劇場』では、番組冒頭に約30分間の特別企画「サヨナラ 淀川長治さん 89年の輝ける映画人生」を放送する。\n\n淀川さんは、1966年の番組開始から約32年にわたって解説を務めてきた。今夜は、淀川さんが最後に収録した解説も放送される。",
+    "pager": "コンヤ ヨドガワサン ツイトウ",
+    "sources": [
+      {
+        "title": "ウィキペディア「淀川長治」",
+        "url": "https://ja.wikipedia.org/wiki/%E6%B7%80%E5%B7%9D%E9%95%B7%E6%B2%BB"
+      },
+      {
+        "title": "ウィキペディア「1998年のテレビ (日本)」",
+        "url": "https://ja.wikipedia.org/wiki/1998%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93_%28%E6%97%A5%E6%9C%AC%29"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E6%B7%80%E5%B7%9D%E9%95%B7%E6%B2%BB",
+    "text_credit": "ウィキペディア「淀川長治」・「1998年のテレビ (日本)」（CC BY-SA 4.0）を参考に、編集部が書き下ろし",
+    "label": "ヘッドライン"
+  },
+  {
+    "id": "jp-1998-11-15-1001",
+    "region": "jp",
+    "time": "1998-11-15T00:00:00+09:00",
+    "time_known": false,
+    "category": "くらし",
+    "title": "岡山・柵原に「ふれあい鉱山公園」きょう開業",
+    "body": "岡山県柵原町に「柵原ふれあい鉱山公園」が、きょう開業する。\n\n公園は、1991年に廃止された同和鉱業片上鉄道の吉ヶ原駅の周りに整備された。柵原は、かつて鉱山の町として栄え、片上鉄道は鉱石を運ぶ鉄道として町を支えた。三角屋根の木造駅舎が残る駅とともに、鉱山と鉄道の歴史を伝える。",
+    "pager": "ヤナハラ コウザンコウエン",
+    "sources": [
+      {
+        "title": "ウィキペディア「吉ヶ原駅」",
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%89%E3%83%B6%E5%8E%9F%E9%A7%85"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E5%90%89%E3%83%B6%E5%8E%9F%E9%A7%85",
+    "text_credit": "ウィキペディア「吉ヶ原駅」（CC BY-SA 4.0）を参考に、編集部が書き下ろし"
+  },
+  {
+    "id": "jp-1998-11-15-w01",
+    "region": "jp",
+    "time": "1998-11-15T18:00:00+09:00",
+    "time_known": true,
+    "category": "天気",
+    "title": "東京 きょうは快晴　気温21.5度まで",
+    "body": "きょうの東京都心は、昼間の天気が「快晴」だった。気温は午後2時に21.5度まで上がった。午後6時までで最も低かったのは、午前2時の11.7度。日照時間は9.2時間で、一日じゅう日差しに恵まれた。空気が乾いている。火の元に気をつけたい。",
+    "pager": "トウキョウ カイセイ 22ド",
+    "sources": [
+      {
+        "title": "気象庁「過去の気象データ」（東京・1時間ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=15&view="
+      },
+      {
+        "title": "気象庁「過去の気象データ」（東京・日ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=&view="
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=15&view=",
+    "text_credit": "気象庁「過去の気象データ」の数値をもとに作成（政府標準利用規約）",
+    "note": "気温・雨・日照時間は、午後6時までの1時間ごとの観測値です。「昼の天気」は6時から18時までの天気概況です。",
+    "group": "weather"
+  }
+]

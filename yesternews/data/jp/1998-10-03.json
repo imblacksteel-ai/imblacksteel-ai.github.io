@@ -1,0 +1,112 @@
+[
+  {
+    "id": "jp-1998-10-03-001",
+    "region": "jp",
+    "time": "1998-10-03T00:00:00+09:00",
+    "time_known": false,
+    "category": "テレビ",
+    "title": "土曜の新番組『JAPAN COUNTDOWN』『魔術士オーフェン』きょうから",
+    "body": "秋の番組改編で、きょうから新番組が始まる。\n\nテレビ東京系の音楽番組『JAPAN COUNTDOWN』は、全国のCD店のシングルとアルバムの売り上げをカウントダウン形式で紹介する。先週まで放送された『TOWER COUNTDOWN』を引き継ぐ番組で、ナビゲーターも引き続きアラン Jさんが務める。最新の音楽情報やアーティストのインタビューも伝える。\n\nTBSほかでは、アニメ『魔術士オーフェン』が始まる。原作は秋田禎信さんの人気小説『魔術士オーフェンはぐれ旅』。ギャグを抑えたシリアスな作風を目指し、音楽はシャ乱Qのはたけさんが担当する。",
+    "pager": "シンバングミ ジャパンカウントダウン",
+    "sources": [
+      {
+        "title": "ウィキペディア「JAPAN COUNTDOWN」",
+        "url": "https://ja.wikipedia.org/wiki/JAPAN_COUNTDOWN"
+      },
+      {
+        "title": "ウィキペディア「魔術士オーフェン (アニメ)」",
+        "url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E8%A1%93%E5%A3%AB%E3%82%AA%E3%83%BC%E3%83%95%E3%82%A7%E3%83%B3_%28%E3%82%A2%E3%83%8B%E3%83%A1%29"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/JAPAN_COUNTDOWN",
+    "text_credit": "ウィキペディア「JAPAN COUNTDOWN」・「魔術士オーフェン (アニメ)」（CC BY-SA 4.0）を参考に、編集部が書き下ろし",
+    "label": "ヘッドライン"
+  },
+  {
+    "id": "jp-1998-10-03-801",
+    "region": "jp",
+    "time": "1998-10-03T00:00:00+09:00",
+    "time_known": false,
+    "category": "くらし",
+    "title": "感染症法が公布　伝染病予防法など3つの法律を一つに",
+    "body": "感染症の予防と、感染症の患者への医療について定めた新しい法律（感染症法）が、2日公布された。来年4月1日から施行される。\n\n新しい法律は、1897年（明治30年）にできた「伝染病予防法」と、「性病予防法」「エイズ予防法」の3つの法律をまとめたもの。施行とともに、これまでの3つの法律は廃止される。",
+    "pager": "カンセンショウホウ コウフ",
+    "sources": [
+      {
+        "title": "ウィキペディア「感染症の予防及び感染症の患者に対する医療に関する法律」",
+        "url": "https://ja.wikipedia.org/wiki/%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E4%BA%88%E9%98%B2%E5%8F%8A%E3%81%B3%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E6%82%A3%E8%80%85%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%8C%BB%E7%99%82%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B"
+      },
+      {
+        "title": "ウィキペディア「伝染病予防法」",
+        "url": "https://ja.wikipedia.org/wiki/%E4%BC%9D%E6%9F%93%E7%97%85%E4%BA%88%E9%98%B2%E6%B3%95"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E4%BA%88%E9%98%B2%E5%8F%8A%E3%81%B3%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E6%82%A3%E8%80%85%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%8C%BB%E7%99%82%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B",
+    "text_credit": "ウィキペディア「感染症の予防及び感染症の患者に対する医療に関する法律」・「伝染病予防法」（CC BY-SA 4.0）を参考に、編集部が書き下ろし"
+  },
+  {
+    "id": "jp-1998-10-03-w01",
+    "region": "jp",
+    "time": "1998-10-03T18:00:00+09:00",
+    "time_known": true,
+    "category": "天気",
+    "title": "東京 きょうは晴後曇　26.2度の夏日",
+    "body": "きょうの東京都心は、昼間の天気が「晴後曇」だった。気温は午後1時に26.2度まで上がり、夏日となった。午後6時までで最も低かったのは、午前6時の21.8度。日照時間は6.2時間。上着のいらない、過ごしやすい一日だった。",
+    "pager": "トウキョウ ハレノチクモリ 26ド",
+    "sources": [
+      {
+        "title": "気象庁「過去の気象データ」（東京・1時間ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=10&day=3&view="
+      },
+      {
+        "title": "気象庁「過去の気象データ」（東京・日ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=44&block_no=47662&year=1998&month=10&day=&view="
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=10&day=3&view=",
+    "text_credit": "気象庁「過去の気象データ」の数値をもとに作成（政府標準利用規約）",
+    "note": "気温・雨・日照時間は、午後6時までの1時間ごとの観測値です。「昼の天気」は6時から18時までの天気概況です。",
+    "group": "weather"
+  },
+  {
+    "id": "jp-1998-10-03-q01",
+    "region": "jp",
+    "time": "1998-10-03T20:15:43+09:00",
+    "time_known": true,
+    "category": "地震",
+    "label": "速報",
+    "title": "奄美大島北西沖で震度３の地震",
+    "body": "きょう午後8時15分ごろ、奄美大島北西沖を震源とする地震があり、最大震度３の揺れを観測した。気象庁によると、震源の深さは約183キロ、地震の規模を示すマグニチュードは6.1と推定されている。揺れの強かった地域では、念のため身の回りに注意が必要だ。",
+    "pager": "ジシン シンド３ M6.1",
+    "sources": [
+      {
+        "title": "気象庁「震度データベース」",
+        "url": "https://www.data.jma.go.jp/eqdb/data/shindo/"
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/eqdb/data/shindo/",
+    "text_credit": "気象庁「震度データベース」の数値をもとに作成（政府標準利用規約）",
+    "note": "震源・規模などの数値は、現在の気象庁のデータです。"
+  },
+  {
+    "id": "jp-1998-10-03-fx01",
+    "region": "jp",
+    "time": "1998-10-03T00:00:00+09:00",
+    "time_known": false,
+    "category": "経済",
+    "title": "円相場、1ドル＝135円60銭　15銭の円高",
+    "body": "2日のニューヨーク外国為替市場の円相場は、正午の時点で1ドル＝135円60銭と、前の営業日（1日）より15銭の円高・ドル安となった。",
+    "pager": "エン 135.60 エンダカ",
+    "sources": [
+      {
+        "title": "米連邦準備制度理事会（FRB）「H.10 外国為替相場」（1998年10月2日の相場）",
+        "url": "https://www.federalreserve.gov/releases/h10/19981005/"
+      }
+    ],
+    "source": "https://www.federalreserve.gov/releases/h10/19981005/",
+    "text_credit": "米連邦準備制度理事会（FRB）「H.10 外国為替相場」の数値をもとに作成（アメリカ政府の著作物）",
+    "note": "相場は、ニューヨーク連邦準備銀行が毎日正午に定める電信送金の買い相場です。東京市場の相場とは少し異なります。",
+    "notify": false,
+    "group": "market"
+  }
+]

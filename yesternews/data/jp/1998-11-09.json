@@ -1,0 +1,66 @@
+[
+  {
+    "id": "jp-1998-11-09-401",
+    "region": "jp",
+    "time": "1998-11-09T00:00:00+09:00",
+    "time_known": false,
+    "category": "スポーツ",
+    "title": "大相撲九州場所が初日　兄弟横綱がそろって出場",
+    "body": "大相撲九州場所が8日、福岡市の福岡国際センターで初日を迎えた。千秋楽は22日。\n\n今場所は、貴乃花と、5月場所後に横綱に昇進した兄の若乃花の兄弟横綱がそろって土俵に上がる。兄弟がともに横綱になるのは、大相撲の歴史で初めて。若乃花にとっては横綱として3場所目で、新横綱だった7月場所は10勝5敗に終わっていた。\n\n一方、三役の常連だった琴錦は、先場所のけがの影響で前頭12枚目まで番付を下げて今場所を迎えた。",
+    "pager": "キュウシュウバショ ショニチ",
+    "sources": [
+      {
+        "title": "ウィキペディア「若乃花勝」",
+        "url": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E4%B9%83%E8%8A%B1%E5%8B%9D"
+      },
+      {
+        "title": "ウィキペディア（英語版）「1998 in sumo」",
+        "url": "https://en.wikipedia.org/wiki/1998_in_sumo"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E4%B9%83%E8%8A%B1%E5%8B%9D",
+    "text_credit": "ウィキペディア「若乃花勝」（CC BY-SA 4.0）を参考に、編集部が書き下ろし"
+  },
+  {
+    "id": "jp-1998-11-09-901",
+    "region": "jp",
+    "time": "1998-11-09T00:00:00+09:00",
+    "time_known": false,
+    "category": "経済",
+    "title": "平和堂が中国に1号店　湖南省に海外初出店",
+    "body": "滋賀県を地盤とするスーパーの平和堂は8日、中国・湖南省の長沙市に、初めての海外店舗となる「湖南平和堂」を開業した。\n\n平和堂は滋賀県を中心に店を広げてきた。湖南省とは、出店にあたって省の側も費用を負担する形で準備を進めてきた。滋賀の地元スーパーが、初めて海外に店を構える。",
+    "pager": "ヘイワドウ チュウゴク",
+    "sources": [
+      {
+        "title": "ウィキペディア「平和堂」",
+        "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E5%92%8C%E5%A0%82"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E5%92%8C%E5%A0%82",
+    "text_credit": "ウィキペディア「平和堂」（CC BY-SA 4.0）を参考に、編集部が書き下ろし"
+  },
+  {
+    "id": "jp-1998-11-09-w01",
+    "region": "jp",
+    "time": "1998-11-09T18:00:00+09:00",
+    "time_known": true,
+    "category": "天気",
+    "title": "東京 きょうは晴一時曇　気温24.7度まで",
+    "body": "きょうの東京都心は、昼間の天気が「晴一時曇」だった。気温は午後1時に24.7度まで上がった。午後6時までで最も低かったのは、午前4時の12.5度。日照時間は7.7時間。きょうも一日が暮れた。",
+    "pager": "トウキョウ ハレイチジクモリ 25ド",
+    "sources": [
+      {
+        "title": "気象庁「過去の気象データ」（東京・1時間ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=9&view="
+      },
+      {
+        "title": "気象庁「過去の気象データ」（東京・日ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=&view="
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=9&view=",
+    "text_credit": "気象庁「過去の気象データ」の数値をもとに作成（政府標準利用規約）",
+    "note": "気温・雨・日照時間は、午後6時までの1時間ごとの観測値です。「昼の天気」は6時から18時までの天気概況です。",
+    "group": "weather"
+  }
+]

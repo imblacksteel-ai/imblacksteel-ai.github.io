@@ -1,0 +1,66 @@
+[
+  {
+    "id": "jp-1998-11-23-1101",
+    "region": "jp",
+    "time": "1998-11-23T00:00:00+09:00",
+    "time_known": false,
+    "category": "スポーツ",
+    "title": "タイキシャトルがマイルチャンピオンシップ連覇　5馬身差の圧勝",
+    "body": "競馬のG1レース、マイルチャンピオンシップ（芝1600メートル）が22日、京都競馬場で行われ、タイキシャトルが2着に5馬身差をつけて優勝した。昨年に続く連覇となった。\n\nタイキシャトルは今年8月、フランスの最高峰のマイルレース、ジャック・ル・マロワ賞を日本で調教された馬として初めて制した。帰国後の初戦となったこの日も、好位から直線ですぐに先頭に立ち、後続を引き離した。",
+    "pager": "タイキシャトル レンパ",
+    "sources": [
+      {
+        "title": "ウィキペディア「タイキシャトル」",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%82%AD%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AB"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%82%AD%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AB",
+    "text_credit": "ウィキペディア「タイキシャトル」（CC BY-SA 4.0）を参考に、編集部が書き下ろし",
+    "image": "images/jp/5a7772786ceb7773.jpg",
+    "image_caption": "マイルチャンピオンシップの日のタイキシャトル（11月22日、京都競馬場）",
+    "credit": "TRJN / CC BY-SA 4.0",
+    "image_page": "https://commons.wikimedia.org/wiki/File:TaikiShuttle-1998-11-22.jpg"
+  },
+  {
+    "id": "jp-1998-11-23-201",
+    "region": "jp",
+    "time": "1998-11-23T00:00:00+09:00",
+    "time_known": false,
+    "category": "スポーツ",
+    "title": "琴錦、14勝1敗で締めくくる　殊勲賞と技能賞も",
+    "body": "大相撲九州場所は22日、千秋楽を迎え、すでに優勝を決めていた前頭12枚目の琴錦が勝って、14勝1敗で場所を終えた。敗れたのは12日目の横綱・若乃花戦の1番だけだった。\n\n三賞では、琴錦が殊勲賞と技能賞を受賞した。琴錦の三賞受賞はこれで18回目。平幕で2度優勝したのは大相撲の歴史で初めてで、最高位が関脇以下の力士が幕内で2度優勝したのも初めてとなる。前の優勝から43場所ぶりという間隔も、史上最長だった。",
+    "pager": "コトニシキ 14ショウ1パイ",
+    "sources": [
+      {
+        "title": "ウィキペディア「琴錦功宗」",
+        "url": "https://ja.wikipedia.org/wiki/%E7%90%B4%E9%8C%A6%E5%8A%9F%E5%AE%97"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E7%90%B4%E9%8C%A6%E5%8A%9F%E5%AE%97",
+    "text_credit": "ウィキペディア「琴錦功宗」（CC BY-SA 4.0）を参考に、編集部が書き下ろし"
+  },
+  {
+    "id": "jp-1998-11-23-w01",
+    "region": "jp",
+    "time": "1998-11-23T18:00:00+09:00",
+    "time_known": true,
+    "category": "天気",
+    "title": "東京 きょうは曇後晴　気温14.7度まで",
+    "body": "きょうの東京都心は、昼間の天気が「曇後晴」だった。気温は午後3時に14.7度まで上がった。午後6時までで最も低かったのは、午前5時の5.9度。日照時間は6.2時間。朝晩は冷える。上着を一枚用意しておきたい。",
+    "pager": "トウキョウ クモリノチハレ 15ド",
+    "sources": [
+      {
+        "title": "気象庁「過去の気象データ」（東京・1時間ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=23&view="
+      },
+      {
+        "title": "気象庁「過去の気象データ」（東京・日ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=&view="
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=23&view=",
+    "text_credit": "気象庁「過去の気象データ」の数値をもとに作成（政府標準利用規約）",
+    "note": "気温・雨・日照時間は、午後6時までの1時間ごとの観測値です。「昼の天気」は6時から18時までの天気概況です。",
+    "group": "weather"
+  }
+]

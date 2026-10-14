@@ -1,0 +1,44 @@
+[
+  {
+    "id": "jp-1998-11-29-301",
+    "region": "jp",
+    "time": "1998-11-29T00:00:00+09:00",
+    "time_known": false,
+    "category": "スポーツ",
+    "title": "きょうジャパンカップ　日本馬が中心",
+    "body": "国際招待の競馬「ジャパンカップ」が、きょう東京競馬場の芝2400メートルで行われる。\n\n今年は、招待された外国の有力馬の多くが辞退し、外国勢で目立つのは昨年のアメリカのブリーダーズカップ・ターフを勝ったチーフベアハートくらい。日本ダービーを制したスペシャルウィーク、昨年2着の牝馬エアグルーヴ、5月のNHKマイルカップを勝ったエルコンドルパサーなど、日本の馬が中心となりそうだ。",
+    "pager": "キョウ ジャパンカップ",
+    "sources": [
+      {
+        "title": "ウィキペディア「エルコンドルパサー」",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AB%E3%83%91%E3%82%B5%E3%83%BC"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%82%B3%E3%83%B3%E3%83%89%E3%83%AB%E3%83%91%E3%82%B5%E3%83%BC",
+    "text_credit": "ウィキペディア「エルコンドルパサー」（CC BY-SA 4.0）を参考に、編集部が書き下ろし"
+  },
+  {
+    "id": "jp-1998-11-29-w01",
+    "region": "jp",
+    "time": "1998-11-29T18:00:00+09:00",
+    "time_known": true,
+    "category": "天気",
+    "title": "東京 きょうは曇時々晴　気温12.0度まで",
+    "body": "きょうの東京都心は、昼間の天気が「曇時々晴」だった。気温は午後3時に12.0度まで上がった。午後6時までで最も低かったのは、午前7時の8.6度。日照時間は2.5時間。朝晩は冷える。上着を一枚用意しておきたい。",
+    "pager": "トウキョウ クモリトキドキハレ 12ド",
+    "sources": [
+      {
+        "title": "気象庁「過去の気象データ」（東京・1時間ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=29&view="
+      },
+      {
+        "title": "気象庁「過去の気象データ」（東京・日ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=&view="
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=29&view=",
+    "text_credit": "気象庁「過去の気象データ」の数値をもとに作成（政府標準利用規約）",
+    "note": "気温・雨・日照時間は、午後6時までの1時間ごとの観測値です。「昼の天気」は6時から18時までの天気概況です。",
+    "group": "weather"
+  }
+]

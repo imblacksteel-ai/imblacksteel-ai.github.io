@@ -1,0 +1,90 @@
+[
+  {
+    "id": "jp-1998-11-07-001",
+    "region": "jp",
+    "time": "1998-11-07T00:00:00+09:00",
+    "time_known": false,
+    "category": "事件",
+    "title": "新宿の高層ビルを素手で登る　フランス人クライマーを逮捕",
+    "body": "6日、東京・西新宿の新宿センタービルを、フランス人のフリークライマーが命綱を使わずに素手で登り、約40分で屋上まで達した。クライマーは屋上で、建造物侵入の現行犯として警視庁新宿警察署に逮捕された。ビルの職員の制止を振り切って登ったという。\n\nこのクライマーは、世界各地の高層ビルを許可なく素手で登ることで知られ、「スパイダーマン」の異名を持つ。昨年は、マレーシアのクアラルンプールにある高さ452メートルのペトロナスツインタワーにも挑んでいる。",
+    "pager": "シンジュク ビル スデデ ノボル",
+    "sources": [
+      {
+        "title": "ウィキペディア「アラン・ロベール」",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%AD%E3%83%99%E3%83%BC%E3%83%AB"
+      },
+      {
+        "title": "ウィキペディア「1998年の日本」",
+        "url": "https://ja.wikipedia.org/wiki/1998%E5%B9%B4%E3%81%AE%E6%97%A5%E6%9C%AC"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%AD%E3%83%99%E3%83%BC%E3%83%AB",
+    "text_credit": "ウィキペディア「アラン・ロベール」・「1998年の日本」（CC BY-SA 4.0）を参考に、編集部が書き下ろし",
+    "label": "ヘッドライン"
+  },
+  {
+    "id": "jp-1998-11-07-w01",
+    "region": "jp",
+    "time": "1998-11-07T18:00:00+09:00",
+    "time_known": true,
+    "category": "天気",
+    "title": "東京 きょうは曇一時雨　気温14.9度まで",
+    "body": "きょうの東京都心は、昼間の天気が「曇一時雨」だった。気温は午後4時に14.9度まで上がった。午後6時までで最も低かったのは、午前6時の11.9度。日差しはほとんどなかった。きょうも一日が暮れた。",
+    "pager": "トウキョウ クモリイチジアメ 15ド",
+    "sources": [
+      {
+        "title": "気象庁「過去の気象データ」（東京・1時間ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=7&view="
+      },
+      {
+        "title": "気象庁「過去の気象データ」（東京・日ごとの値）",
+        "url": "https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=&view="
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=44&block_no=47662&year=1998&month=11&day=7&view=",
+    "text_credit": "気象庁「過去の気象データ」の数値をもとに作成（政府標準利用規約）",
+    "note": "気温・雨・日照時間は、午後6時までの1時間ごとの観測値です。「昼の天気」は6時から18時までの天気概況です。",
+    "group": "weather"
+  },
+  {
+    "id": "jp-1998-11-07-q01",
+    "region": "jp",
+    "time": "1998-11-07T20:13:49+09:00",
+    "time_known": true,
+    "category": "地震",
+    "label": "速報",
+    "title": "奄美大島近海で震度４の地震",
+    "body": "きょう午後8時13分ごろ、奄美大島近海を震源とする地震があり、最大震度４の揺れを観測した。気象庁によると、震源の深さは約15キロ、地震の規模を示すマグニチュードは4.8と推定されている。揺れの強かった地域では、念のため身の回りに注意が必要だ。",
+    "pager": "ジシン シンド４ M4.8",
+    "sources": [
+      {
+        "title": "気象庁「震度データベース」",
+        "url": "https://www.data.jma.go.jp/eqdb/data/shindo/"
+      }
+    ],
+    "source": "https://www.data.jma.go.jp/eqdb/data/shindo/",
+    "text_credit": "気象庁「震度データベース」の数値をもとに作成（政府標準利用規約）",
+    "note": "震源・規模などの数値は、現在の気象庁のデータです。"
+  },
+  {
+    "id": "jp-1998-11-07-fx01",
+    "region": "jp",
+    "time": "1998-11-07T00:00:00+09:00",
+    "time_known": false,
+    "category": "経済",
+    "title": "円相場、1ドル＝118円73銭　1円28銭の円安",
+    "body": "6日のニューヨーク外国為替市場の円相場は、正午の時点で1ドル＝118円73銭と、前の営業日（5日）より1円28銭の円安・ドル高となった。",
+    "pager": "エン 118.73 エンヤス",
+    "sources": [
+      {
+        "title": "米連邦準備制度理事会（FRB）「H.10 外国為替相場」（1998年11月6日の相場）",
+        "url": "https://www.federalreserve.gov/releases/h10/19981109/"
+      }
+    ],
+    "source": "https://www.federalreserve.gov/releases/h10/19981109/",
+    "text_credit": "米連邦準備制度理事会（FRB）「H.10 外国為替相場」の数値をもとに作成（アメリカ政府の著作物）",
+    "note": "相場は、ニューヨーク連邦準備銀行が毎日正午に定める電信送金の買い相場です。東京市場の相場とは少し異なります。",
+    "notify": false,
+    "group": "market"
+  }
+]
