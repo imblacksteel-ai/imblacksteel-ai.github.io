@@ -22,7 +22,7 @@
     "text_credit": "ウィキペディア英語版「1998 United States House of Representatives elections」「Impeachment of Bill Clinton」（CC BY-SA 4.0）を参考に、編集部が書き下ろし"
   },
   {
-    "id": "jp-1998-11-04-901",
+    "id": "jp-1998-11-04-9901",
     "region": "jp",
     "time": "1998-11-04T00:00:00+09:00",
     "time_known": false,
@@ -42,6 +42,28 @@
     ],
     "source": "https://ja.wikipedia.org/wiki/STS-95",
     "text_credit": "ウィキペディア「STS-95」・ウィキペディア「向井千秋」（CC BY-SA 4.0）で確かめた事実をもとに、編集長が書き下ろし（予想は編集長の見方）"
+  },
+  {
+    "id": "jp-1998-11-04-9950",
+    "region": "jp",
+    "time": "1998-11-04T00:00:00+09:00",
+    "time_known": false,
+    "category": "編集長のひとこと",
+    "title": "【編集長のひとこと】海の向こうは投票日。一票の重さは、どこの国でも同じよ。",
+    "body": "海の向こうは投票日。一票の重さは、どこの国でも同じよ。\n\n（きょうの話題：アメリカで中間選挙の投票）",
+    "pager": "ヘンシュウチョウノ ヒトコト",
+    "sources": [
+      {
+        "title": "ウィキペディア（英語版）「1998 United States House of Representatives elections」",
+        "url": "https://en.wikipedia.org/wiki/1998_United_States_House_of_Representatives_elections"
+      },
+      {
+        "title": "ウィキペディア（英語版）「Impeachment of Bill Clinton」",
+        "url": "https://en.wikipedia.org/wiki/Impeachment_of_Bill_Clinton"
+      }
+    ],
+    "source": "https://en.wikipedia.org/wiki/1998_United_States_House_of_Representatives_elections",
+    "text_credit": "編集長のひとこと（題材の記事：アメリカで中間選挙の投票）"
   },
   {
     "id": "jp-1998-11-04-w01",

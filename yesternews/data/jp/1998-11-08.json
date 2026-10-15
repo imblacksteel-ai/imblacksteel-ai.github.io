@@ -28,6 +28,28 @@
     "image_page": "https://commons.wikimedia.org/wiki/File:STS-95_landing.jpg"
   },
   {
+    "id": "jp-1998-11-08-9950",
+    "region": "jp",
+    "time": "1998-11-08T00:00:00+09:00",
+    "time_known": false,
+    "category": "編集長のひとこと",
+    "title": "【編集長のひとこと】おかえりなさい、向井さん。地球の重さ、久しぶりに感じているかしら。",
+    "body": "おかえりなさい、向井さん。地球の重さ、久しぶりに感じているかしら。\n\n（きょうの話題：向井千秋さんら、地球に帰還　ディスカバリーが着陸）",
+    "pager": "ヘンシュウチョウノ ヒトコト",
+    "sources": [
+      {
+        "title": "ウィキペディア「STS-95」",
+        "url": "https://ja.wikipedia.org/wiki/STS-95"
+      },
+      {
+        "title": "ウィキペディア「向井千秋」",
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%91%E4%BA%95%E5%8D%83%E7%A7%8B"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/STS-95",
+    "text_credit": "編集長のひとこと（題材の記事：向井千秋さんら、地球に帰還　ディスカバリーが着陸）"
+  },
+  {
     "id": "jp-1998-11-08-w01",
     "region": "jp",
     "time": "1998-11-08T18:00:00+09:00",

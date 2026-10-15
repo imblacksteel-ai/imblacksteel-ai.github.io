@@ -42,6 +42,24 @@
     "image_page": "https://commons.wikimedia.org/wiki/File:Typhoon_Zeb_17_Oct_1998_0732Z.jpg"
   },
   {
+    "id": "jp-1998-10-18-9950",
+    "region": "jp",
+    "time": "1998-10-18T00:00:00+09:00",
+    "time_known": false,
+    "category": "編集長のひとこと",
+    "title": "【編集長のひとこと】38年ぶりの頂点がかかるんですって。期待しすぎると胃にくるわよ。ほどほどに、でも全力で応援なさい。",
+    "body": "38年ぶりの頂点がかかるんですって。期待しすぎると胃にくるわよ。ほどほどに、でも全力で応援なさい。\n\n（きょうの話題：日本シリーズきょう開幕　横浜、38年ぶりの頂点へ）",
+    "pager": "ヘンシュウチョウノ ヒトコト",
+    "sources": [
+      {
+        "title": "ウィキペディア「1998年の日本シリーズ」",
+        "url": "https://ja.wikipedia.org/wiki/1998%E5%B9%B4%E3%81%AE%E6%97%A5%E6%9C%AC%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/1998%E5%B9%B4%E3%81%AE%E6%97%A5%E6%9C%AC%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+    "text_credit": "編集長のひとこと（題材の記事：日本シリーズきょう開幕　横浜、38年ぶりの頂点へ）"
+  },
+  {
     "id": "jp-1998-10-18-w01",
     "region": "jp",
     "time": "1998-10-18T18:00:00+09:00",

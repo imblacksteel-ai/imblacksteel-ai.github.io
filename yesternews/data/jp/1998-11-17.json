@@ -27,6 +27,28 @@
     "image_page": "https://commons.wikimedia.org/wiki/File:HST%27s_orientation_and_viewing_target_during_Leonid_meteor_shower_(opo9840a).jpg"
   },
   {
+    "id": "jp-1998-11-17-9950",
+    "region": "jp",
+    "time": "1998-11-17T00:00:00+09:00",
+    "time_known": false,
+    "category": "編集長のひとこと",
+    "title": "【編集長のひとこと】今夜は流れ星の夜。願いごとは、短く決めておきなさい。流れ星は待ってくれないわよ。",
+    "body": "今夜は流れ星の夜。願いごとは、短く決めておきなさい。流れ星は待ってくれないわよ。\n\n（きょうの話題：しし座流星群、今夜からあす未明が見ごろ　大出現に期待）",
+    "pager": "ヘンシュウチョウノ ヒトコト",
+    "sources": [
+      {
+        "title": "ウィキペディア「しし座流星群」",
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%97%E3%81%97%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4"
+      },
+      {
+        "title": "ウィキペディア「1998年の日本」",
+        "url": "https://ja.wikipedia.org/wiki/1998%E5%B9%B4%E3%81%AE%E6%97%A5%E6%9C%AC"
+      }
+    ],
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%97%E3%81%97%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4",
+    "text_credit": "編集長のひとこと（題材の記事：しし座流星群、今夜からあす未明が見ごろ　大出現に期待）"
+  },
+  {
     "id": "jp-1998-11-17-w01",
     "region": "jp",
     "time": "1998-11-17T18:00:00+09:00",
