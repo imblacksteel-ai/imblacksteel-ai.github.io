@@ -1,4 +1,4 @@
-"""Text for the SD Importer pages, in every language. Built by tools/build_sdimporter.py.
+"""Text for the CullCopy pages, in every language. Built by tools/build_sdimporter.py.
 
 Keep the privacy policy in step with the app (photo_manager_project), and update
 EFFECTIVE_DATE when it changes.
@@ -6,11 +6,11 @@ EFFECTIVE_DATE when it changes.
 
 # code: (html lang, language name, text direction, app name)
 LANGUAGES = {
-    "en": ("en", "English", "ltr", "SD Importer"),
-    "ja": ("ja", "日本語", "ltr", "SD Importer"),
-    "ko": ("ko", "한국어", "ltr", "SD Importer"),
-    "zh-hans": ("zh-Hans", "简体中文", "ltr", "SD Importer"),
-    "zh-hant": ("zh-Hant", "繁體中文", "ltr", "SD Importer"),
+    "en": ("en", "English", "ltr", "CullCopy"),
+    "ja": ("ja", "日本語", "ltr", "CullCopy"),
+    "ko": ("ko", "한국어", "ltr", "CullCopy"),
+    "zh-hans": ("zh-Hans", "简体中文", "ltr", "CullCopy"),
+    "zh-hant": ("zh-Hant", "繁體中文", "ltr", "CullCopy"),
 }
 
 EFFECTIVE_DATE = {
@@ -29,7 +29,7 @@ T = {
         "effective": "Effective date",
         "tagline": "Sort SD card photos into folders by capture date — safely.",
         "intro": [
-            "SD Importer copies photos and videos from your camera's SD card into folders by capture date. "
+            "CullCopy copies photos and videos from your camera's SD card into folders by capture date. "
             "Every copy is verified byte by byte, and nothing on your card is deleted unless you choose to.",
             "It is free. If you like it, you can leave a tip to support development.",
         ],
@@ -37,7 +37,8 @@ T = {
             "Sorts by the capture date (EXIF) of photos and the creation date of videos",
             "Custom folder names such as yyyy/yyyy-MM-dd",
             "Verified copies, automatic skipping of files already imported, resume after interruption",
-            "Duplicate check with side-by-side comparison",
+            "Pick & Copy: browse photos by date in a large preview and copy your favorites with the Return key",
+            "Duplicate check across multiple folders, with side-by-side comparison",
             "Progress in the menu bar, notifications, and history",
             "RAW, HEIC, and video support",
         ],
@@ -65,7 +66,7 @@ T = {
         "contact_button": "Open GitHub Issues",
         "privacy_sections": [
             ("Summary", [
-                "SD Importer does not collect, send, or share any personal information. "
+                "CullCopy does not collect, send, or share any personal information. "
                 "Your photos, videos, and history stay on your Mac.",
             ]),
             ("Information the app does not collect", [
@@ -108,7 +109,7 @@ T = {
         "effective": "施行日",
         "tagline": "SDカードの写真を、撮影日ごとのフォルダに安全に整理。",
         "intro": [
-            "SD Importer は、カメラのSDカードの写真と動画を、撮影日ごとのフォルダにコピーするアプリです。"
+            "CullCopy は、カメラのSDカードの写真と動画を、撮影日ごとのフォルダにコピーするアプリです。"
             "コピーしたファイルは1バイトずつ照合し、SDカードのファイルは自分で選ばない限り消えません。",
             "無料でお使いいただけます。気に入っていただけたら、チップで開発を応援していただけるとうれしいです。",
         ],
@@ -116,7 +117,8 @@ T = {
             "写真の撮影日時（EXIF）・動画の作成日時で振り分け",
             "フォルダ名は yyyy/yyyy-MM-dd や yyyy年MM月dd日 など自由に",
             "中身まで照合するコピー、取り込み済みの自動スキップ、途中からの再開",
-            "重複ファイルのチェックと、並べての比較",
+            "選んでコピー：撮影日ごとの一覧と大きなプレビューで、気に入った写真を Return キーでコピー",
+            "複数フォルダの重複ファイルのチェックと、並べての比較",
             "メニューバーの進捗表示・完了通知・履歴",
             "RAW・HEIC・動画に対応",
         ],
@@ -144,7 +146,7 @@ T = {
         "contact_button": "GitHub Issues を開く",
         "privacy_sections": [
             ("概要", [
-                "SD Importer は、個人情報を収集・送信・共有しません。写真、動画、履歴は、お使いの Mac の中にだけ保存されます。",
+                "CullCopy は、個人情報を収集・送信・共有しません。写真、動画、履歴は、お使いの Mac の中にだけ保存されます。",
             ]),
             ("収集しない情報", [
                 "アカウント、利用状況の解析、広告、トラッキングは一切ありません。"
@@ -184,7 +186,7 @@ T = {
         "effective": "시행일",
         "tagline": "SD 카드 사진을 촬영일별 폴더로 안전하게 정리.",
         "intro": [
-            "SD Importer는 카메라 SD 카드의 사진과 동영상을 촬영일별 폴더로 복사하는 앱입니다. "
+            "CullCopy는 카메라 SD 카드의 사진과 동영상을 촬영일별 폴더로 복사하는 앱입니다. "
             "복사한 파일은 한 바이트씩 대조하며, SD 카드의 파일은 직접 선택하지 않는 한 지워지지 않습니다.",
             "무료로 사용할 수 있습니다. 마음에 드셨다면 팁으로 개발을 응원해 주세요.",
         ],
@@ -192,7 +194,8 @@ T = {
             "사진의 촬영 일시(EXIF)와 동영상의 생성 일시로 분류",
             "yyyy/yyyy-MM-dd 등 자유로운 폴더 이름",
             "내용까지 대조하는 복사, 이미 가져온 파일 자동 건너뛰기, 중단 후 이어서 복사",
-            "중복 파일 검사와 나란히 비교",
+            "골라서 복사: 촬영일별 목록과 큰 미리보기로 마음에 드는 사진을 Return 키로 복사",
+            "여러 폴더의 중복 파일 검사와 나란히 비교",
             "메뉴 막대 진행 표시, 완료 알림, 기록",
             "RAW, HEIC, 동영상 지원",
         ],
@@ -218,7 +221,7 @@ T = {
         "contact_button": "GitHub Issues 열기",
         "privacy_sections": [
             ("요약", [
-                "SD Importer는 개인정보를 수집, 전송, 공유하지 않습니다. 사진, 동영상, 기록은 사용자의 Mac에만 저장됩니다.",
+                "CullCopy는 개인정보를 수집, 전송, 공유하지 않습니다. 사진, 동영상, 기록은 사용자의 Mac에만 저장됩니다.",
             ]),
             ("수집하지 않는 정보", [
                 "계정, 사용 분석, 광고, 추적이 전혀 없습니다. 파일, 파일 이름, 사용 정보를 개발자나 다른 누구에게도 보내지 않습니다.",
@@ -249,7 +252,7 @@ T = {
         "effective": "生效日期",
         "tagline": "按拍摄日期，把 SD 卡照片安全地整理到文件夹。",
         "intro": [
-            "SD Importer 可将相机 SD 卡中的照片和视频按拍摄日期复制到文件夹中。"
+            "CullCopy 可将相机 SD 卡中的照片和视频按拍摄日期复制到文件夹中。"
             "复制的文件会逐字节核对，除非您选择删除，SD 卡上的文件不会被删除。",
             "可免费使用。如果喜欢，欢迎用小费支持开发。",
         ],
@@ -257,7 +260,8 @@ T = {
             "按照片的拍摄时间（EXIF）和视频的创建时间整理",
             "可自由设置文件夹名称，如 yyyy/yyyy-MM-dd",
             "逐字节核对的复制、自动跳过已导入的文件、中断后继续",
-            "重复文件检查与并排比较",
+            "挑选复制：按拍摄日期浏览、大图预览，按 Return 键复制喜欢的照片",
+            "跨多个文件夹的重复文件检查与并排比较",
             "菜单栏进度、完成通知和历史记录",
             "支持 RAW、HEIC 和视频",
         ],
@@ -280,7 +284,7 @@ T = {
         "contact_note": "欢迎在 GitHub 上提问或报告问题。",
         "contact_button": "打开 GitHub Issues",
         "privacy_sections": [
-            ("概要", ["SD Importer 不收集、发送或共享任何个人信息。照片、视频和历史记录只保存在您的 Mac 上。"]),
+            ("概要", ["CullCopy 不收集、发送或共享任何个人信息。照片、视频和历史记录只保存在您的 Mac 上。"]),
             ("不收集的信息", ["没有账户、使用分析、广告或跟踪。不会将您的文件、文件名或使用数据发送给开发者或任何人。"]),
             ("保存在 Mac 上的数据", [
                 "设置：目标文件夹、文件夹名称格式，以及您允许访问的位置。",
@@ -306,7 +310,7 @@ T = {
         "effective": "生效日期",
         "tagline": "依拍攝日期，把 SD 卡照片安全地整理到資料夾。",
         "intro": [
-            "SD Importer 可將相機 SD 卡中的照片和影片依拍攝日期複製到資料夾中。"
+            "CullCopy 可將相機 SD 卡中的照片和影片依拍攝日期複製到資料夾中。"
             "複製的檔案會逐位元組核對，除非您選擇刪除，SD 卡上的檔案不會被刪除。",
             "可免費使用。如果喜歡，歡迎用小費支持開發。",
         ],
@@ -314,7 +318,8 @@ T = {
             "依照片的拍攝時間（EXIF）和影片的建立時間整理",
             "可自由設定資料夾名稱，如 yyyy/yyyy-MM-dd",
             "逐位元組核對的複製、自動略過已匯入的檔案、中斷後繼續",
-            "重複檔案檢查與並排比較",
+            "挑選複製：依拍攝日期瀏覽、大圖預覽，按 Return 鍵複製喜歡的照片",
+            "跨多個資料夾的重複檔案檢查與並排比較",
             "選單列進度、完成通知和歷史記錄",
             "支援 RAW、HEIC 和影片",
         ],
@@ -337,7 +342,7 @@ T = {
         "contact_note": "歡迎在 GitHub 上提問或回報問題。",
         "contact_button": "開啟 GitHub Issues",
         "privacy_sections": [
-            ("概要", ["SD Importer 不收集、傳送或分享任何個人資料。照片、影片和歷史記錄只儲存在您的 Mac 上。"]),
+            ("概要", ["CullCopy 不收集、傳送或分享任何個人資料。照片、影片和歷史記錄只儲存在您的 Mac 上。"]),
             ("不收集的資料", ["沒有帳號、使用分析、廣告或追蹤。不會將您的檔案、檔案名稱或使用資料傳送給開發者或任何人。"]),
             ("儲存在 Mac 上的資料", [
                 "設定：目標資料夾、資料夾名稱格式，以及您允許存取的位置。",

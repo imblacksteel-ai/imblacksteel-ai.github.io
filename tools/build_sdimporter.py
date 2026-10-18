@@ -1,4 +1,4 @@
-"""Build the static SD Importer pages (home, support, privacy) in every language.
+"""Build the static CullCopy pages (home, support, privacy) in every language.
 
     python3 tools/build_sdimporter.py
 
@@ -20,7 +20,7 @@ REPO = "https://github.com/imblacksteel-ai/cullcopy"
 ISSUES_URL = f"{REPO}/issues"
 RELEASES_URL = f"{REPO}/releases/latest"
 # Set this once the app is live on the Mac App Store; until then the button is hidden.
-APP_STORE_URL = ""
+APP_STORE_URL = "https://apps.apple.com/app/id6821489605"
 
 ICON_VERSION = 1
 PAGES = ("home", "support", "privacy")
@@ -87,7 +87,7 @@ def layout(lang, page, title, body):
 </main>
 <footer>
 {language_menu(lang, page)}
-<p>© 2026 SD Importer</p>
+<p>© 2026 CullCopy</p>
 </footer>
 </body>
 </html>
@@ -150,7 +150,7 @@ def redirect(page):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SD Importer</title>
+<title>CullCopy</title>
 <link rel="stylesheet" href="{BASE}/assets/style.css">
 <script>
 (function () {{
@@ -168,7 +168,7 @@ def redirect(page):
 }})();
 </script>
 </head>
-<body><main><h1>SD Importer</h1><ul class="language-list">{links}</ul></main></body>
+<body><main><h1>CullCopy</h1><ul class="language-list">{links}</ul></main></body>
 </html>
 """
 
