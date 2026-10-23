@@ -1,0 +1,19 @@
+:root{--green:#3e9c7e;--ink:#22302b;--muted:#5d6b66;--bg:#f2f7f4;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Hiragino Maru Gothic ProN","Hiragino Sans",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.8}
+header{background:var(--card);border-bottom:1px solid #dfe9e4}
+header .in,main,footer .in{max-width:760px;margin:0 auto;padding:0 20px}
+header .in{display:flex;align-items:center;gap:10px;height:56px}
+header a{color:var(--ink);text-decoration:none;font-weight:700}
+nav{margin-left:auto;display:flex;gap:14px;font-size:14px}
+nav a{font-weight:400;color:var(--muted)}
+main{padding:28px 20px 40px}
+.hero{text-align:center;padding:12px 0 8px}
+.hero .icon{border-radius:26px;box-shadow:0 6px 20px rgba(0,0,0,.12)}
+h1{font-size:28px;margin:14px 0 4px}
+.tagline{color:var(--muted);margin:0}
+section{background:var(--card);border-radius:22px;padding:18px 22px;margin:18px 0}
+h2{font-size:18px;margin:0 0 6px}
+.date{color:var(--muted);font-size:14px}
+.button{display:inline-block;background:var(--green);color:#fff;text-decoration:none;padding:10px 22px;border-radius:999px;font-weight:700}
+footer{color:var(--muted);font-size:13px;padding:20px 0 40px;text-align:center}
